@@ -1,6 +1,6 @@
 # Some useful notes can be found at https://conda-forge.hackpad.com/BLAS-Numpy-Friends-86De62hoNdT
 
-{% set variant = os.environ.get('BLAS_VARIANT', 'openblas') %}
+{% set variant = 'openblas' %}
 
 # The version should be in the form X.Y, where X denotes major infrastructural change to how blas is managed,
 # and Y denoting blas priority. Currently Y=0 not default, Y=1 default blas.
